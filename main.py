@@ -3,6 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 params = {
+    # 全部/兼職/...
     "ro": 0,
     "kwop": 7,
     # 工作關鍵字
